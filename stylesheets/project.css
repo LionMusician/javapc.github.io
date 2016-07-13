@@ -1,0 +1,226 @@
+body{
+	font-family: Arial,FresSans,楷体;	
+	background-image: url("bj.jpg"); 
+}
+
+a{
+	color: gray;
+	text-decoration: none;
+}
+
+.clear{
+	clear: both;
+}
+
+#head{
+	width: 960px;
+	/*height: 100px;
+	background-color: green;*/
+	color: white;
+	margin: auto;
+	border-bottom: dashed 1px white;
+	margin-bottom: 10px;
+}
+
+#wrapper{
+	margin: auto;
+	/*background-color: black;*/
+	width: 960px;
+	/*height: 500px;*/
+	margin-top: 20px;
+}
+
+.main{
+	width: 640px;
+	/*height: auto;*/
+	background-color: white;
+	float: left;
+	margin-right: 20px;
+	border-radius: 6px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.side{
+	width: 230px;
+	/*height: 450px;*/
+	background-color: white;
+	float: right;
+	border-radius: 6px;
+	padding: 15px;
+}
+
+#footer{
+	height: 60px;
+	width: 960px;
+	margin: auto;
+	/*background-color: blue;*/
+	border-radius: 6px;
+	border-top: dashed 1px white;
+	margin-top: 30px;
+	padding-top: 10px;
+}
+
+.logo_title{
+	float: left;
+}
+
+.logo_title h1{
+	font-size: 30px;
+}
+
+.logo_title h2{
+	font-size: 20px;
+}
+
+.navi{
+	float: right;
+}
+
+.navi ul{
+	list-style: none;
+	margin-top: 76px;
+}
+
+.navi ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.navi ul li a{
+	color: white;
+	border: solid 1px white;
+	padding: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 6px;
+
+}
+
+.item{
+	border-bottom: dashed 1px #ccc;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.item_img{
+	float: left;
+	width: 120px;
+}
+
+.item_img img{
+	width: 100px;
+	padding-top: 10px;
+}
+
+.item_content{
+	padding-left: 100px;
+}
+
+.item_content h3{
+	font-size: 16px;
+	color: #a5612d;
+	margin: 0;
+}
+
+.item_info{
+	font-size: 12px;
+	font-style: italic;
+	margin: 0;
+	color: #999;
+}
+
+.item_desc{
+	font-size: 14px;
+	margin: 0;
+	color: gray;
+	margin-top: 10px;
+	border-left: solid 1px #ccc;
+}
+	
+.author_img{
+	width: 160px;
+	margin: auto;
+	
+}
+
+.author_img img{
+	width: 160px;
+	border: solid 1px #ccc;
+	border-radius: 4px;
+}
+
+.author_desc{
+	text-align: center;
+	border: solid 1px #ccc;
+	border-radius: 6px;
+	background-color: #eee;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+.author_desc p{
+	margin: 0;
+	font-size: 14px;
+}
+
+.author_desc h4{
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.top_article h3{
+	font-size: 18px;
+	font-style: italic;
+	border-bottom: dashed 1px #ccc;
+	font-color: #999;
+}
+
+.top_article ul{
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 10px;
+}
+
+.top_article ul li{
+	padding-top: 10px;
+	color: #666;
+}
+
+.site_info{
+	margin-top: 30px;
+	border-top: solid 1px #ccc;
+	padding-top: 10px;
+}
+
+.site_info p{
+	font-size: 12px;
+	color: #666;
+	text-align: center;
+	margin: 10px;
+}
+
+.site_about{
+	float: left;
+	color: white;
+	padding-left: 30px;
+	font-size: 14px;
+}
+
+.site_link{
+	float: right;
+}
+
+.site_link ul{
+	list-style: none;
+	margin: 0;
+}
+
+.site_link ul li{
+	display: inline-block;
+	color: white;
+	padding-right: 10px;
+}
